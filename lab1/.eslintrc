@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@datanerd/nr1package",
+    "plugin:jest/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "16.0"
+    }
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  }
+}

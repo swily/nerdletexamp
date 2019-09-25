@@ -1,0 +1,8 @@
+{
+    "schemaType": "NERDLET",
+    "id": "SLA-nerdlet",
+    "displayName": "SLA-nerdlet",
+    "description": "",
+    "entities": ["*"],
+    "actionCategory": "nr-only"
+}

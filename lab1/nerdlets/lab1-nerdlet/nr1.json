@@ -1,0 +1,8 @@
+{
+    "schemaType": "NERDLET",
+    "id": "lab1-nerdlet",
+    "displayName": "petco-nerdlet",
+    "description": "",
+    "entities": ["*"],
+    "actionCategory": "monitor"
+}

@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "lab1",
+  "version": "0.1.0",
+  "nr1": {
+    "org": "futurians",
+    "sdkVersion": 2
+  },
+  "scripts": {
+    "start": "nr1-pkg serve",
+    "pkg": "nr1-pkg",
+    "pkg:ci": "NODE_ENV=production DEBUG=nr1:* nr1-pkg",
+    "prepush": "nr1-pkg lint",
+    "test": "jest",
+    "test:watch": "npm test -- --watch --onlyChanged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@source.datanerd.us:futurians/workshop.git"
+  },
+  "bugs": {
+    "email": "jworrall@newrelic.com"
+  },
+  "author": "NEW RELIC",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@datanerd/babel-preset-nr1package": "^1.0.2",
+    "@datanerd/eslint-config-nr1package": "^1.0.1",
+    "@datanerd/nr-ui": "^9.1.2",
+    "@datanerd/nr1-package": "^12.1.4",
+    "@datanerd/vizco": "^19.18.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-jest": "^21.25.1",
+    "husky": "^0.14.3",
+    "jest": "^23.6.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
